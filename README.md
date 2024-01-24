@@ -23,6 +23,11 @@
 - [OSV-Scanner](https://snapcraft.io/osv-scanner) (snap) - vulnerability scanner for projects' lists of dependencies
 - [Trivy](https://snapcraft.io/trivy) (snap) - vulnerability scanner for SBOM
 
+## Confinement
+
+- [AppArmor](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=apparmor) (package) - Linux security module implementing a MAC policy to limit the capabilities of an application
+- [Snapcraft](https://snapcraft.io/snapcraft) (snap) - toolkit for creating snaps, namely cross-distro packages that are self-contained using the AppArmor LSM
+
 ## Infrastructure as code
 
 - [Trivy](https://snapcraft.io/trivy) (snap) - vulnerability scanner for infrastructure as code
