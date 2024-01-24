@@ -1,6 +1,16 @@
 # Awesome AppSec in Ubuntu [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Index of categories
+## Description
+
+Ubuntu, a mature and user-friendly Linux distribution, is used by developers and security communities alike. Its appeal also lies in the ease of installing handy tools. We have two main software distribution channels:
+
+- [Ubuntu archive](https://packages.ubuntu.com): If software is embraced by Ubuntu or Debian because of its maturity and usefulness, it's distributed as a Debian package. Given the slow release cycle, you can expect only stable versions here. However, it's a double-edged sword - you might miss out on the latest features introduced by the upstream.
+- [Snap Store](https://snapcraft.io): Here's where anyone can play! By simply wrapping your software in a self-contained [snap](https://snapcraft.io/about), you can publish it in the Snap Store. With no restrictions on release cycles, maintainers can publish new versions at their own pace.
+
+We've curated this [open](#contributions) list of awesome tools that:
+
+- Assist anyone working with code to ensure or improve the security of a codebase; and
+- Can be easily installed on Ubuntu, either from the Ubuntu Archive or the Snap Store.
 
 ## Tools
 
