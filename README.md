@@ -18,7 +18,7 @@ We've curated this [open](#contributions) list of awesome tools that:
 
 - [OWASP Threat Dragon](https://snapcraft.io/threat-dragon) (snap) - threat modelling platform
 
-### Security linters
+### Security linting
 
 - [Bandit](https://snapcraft.io/bandit) (snap) - Python static code analyser
 - [Brakeman](https://snapcraft.io/brakeman) (snap) - static vulnerability scanner for Ruby on Rails
@@ -42,26 +42,22 @@ We've curated this [open](#contributions) list of awesome tools that:
 - [AppArmor](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=apparmor) (package) - Linux security module implementing a MAC policy to limit the capabilities of an application
 - [Snapcraft](https://snapcraft.io/snapcraft) (snap) - toolkit for creating snaps, namely cross-distro packages that are self-contained using the AppArmor LSM
 
-### Infrastructure as code
-
-- [Trivy](https://snapcraft.io/trivy) (snap) - vulnerability scanner for infrastructure as code
-
-### License
+### License scanning
 
 - [Trivy](https://snapcraft.io/trivy) (snap) - license scanner and opinionated risk assessor
 
-### Reverse engineering engines
+### Reverse engineering
 
 - [Capstone](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=capstone) (package) - disassembly framework supporting 20+ architectures
 - [Ghidra](https://snapcraft.io/ghidra) (snap) - reverse engineering framework with disassembly, assembly, decompilation, graphing, and scripting capabilities
 - [MobSF](https://snapcraft.io/mobsf) (snap) - Android and IOS security assessment platform, both static and dynamic
 - [radare2](https://snapcraft.io/radare2) (snap) - reverse engineering toolkit with disassamblers, debuggers, and emulators
 
-### Fuzzers
+### Fuzzing
 
 - [AFL++](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=aflplusplus) (package) - coverage-based fuzzer with compile-time instrumentation and QEMU emulation
 
-### Symbolic execution engines
+### Symbolic execution
 
 - [KLEE](https://snapcraft.io/klee) (snap) - symbolic execution VM using LLVM
 
@@ -70,7 +66,7 @@ We've curated this [open](#contributions) list of awesome tools that:
 - [nsntrace](https://snapcraft.io/nsntrace) (snap) - network tracer for processes, with `.pcap` exports
 - [Valgrind](https://snapcraft.io/valgrind) (snap) - memory management and thread error detector
 
-### Web scanners
+### Web scanning
 
 - [OWASP Zed Attack Proxy](https://snapcraft.io/zaproxy) (snap) - an extensible web app scanner
 - [sublist3r](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=sublist3r) (package) - subdomain enumeration tool by using OSINT or bruteforce
