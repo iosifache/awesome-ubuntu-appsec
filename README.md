@@ -33,9 +33,14 @@
 
 ## Reverse engineering engines
 
+- [Capstone](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=capstone) (package) - disassembly framework supporting 20+ architectures
 - [Ghidra](https://snapcraft.io/ghidra) (Snap) - reverse engineering framework with disassembly, assembly, decompilation, graphing, and scripting capabilities
 - [MobSF](https://snapcraft.io/mobsf) (Snap) - Android and IOS security assessment platform, both static and dynamic
 - [radare2](https://snapcraft.io/radare2) (Snap) - reverse engineering toolkit with disassamblers, debuggers, and emulators
+
+## Fuzzers
+
+- [AFL++](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=aflplusplus) (package) - coverage-based fuzzer with compile-time instrumentation and QEMU emulation
 
 ## Symbolic execution engines
 
@@ -49,4 +54,6 @@
 ## Web scanners
 
 - [OWASP Zed Attack Proxy](https://snapcraft.io/zaproxy) (Snap) - an extensible web app scanner
+- [sublist3r](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=sublist3r) (package) - subdomain enumeration tool by using OSINT or bruteforce
+- [wfuzz](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=wfuzz) (package) - fuzzer for any field of an HTTP request
 
