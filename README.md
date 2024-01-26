@@ -46,9 +46,36 @@ gantt
 
 ## Tools
 
-### Threat modelling
+### Coordinated vulnerability disclosure
 
-- [OWASP Threat Dragon](https://snapcraft.io/threat-dragon) (snap) - Threat modelling platform.
+- [cvelib](https://packages.ubuntu.com/search?suite=all&searchon=names&keywords=cvelib) (package) - CLI tool and Python library for communicating with the CVE Services API.
+
+### Fuzzing
+
+- [AFL++](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=aflplusplus) (package) - Coverage-based fuzzer with compile-time instrumentation and QEMU emulation.
+
+### License scanning
+
+- [Trivy](https://snapcraft.io/trivy) (snap) - License scanner and opinionated risk assessor.
+
+### Reverse engineering
+
+- [Capstone](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=capstone) (package) - Disassembly framework supporting 20+ architectures.
+- [Ghidra](https://snapcraft.io/ghidra) (snap) - Reverse engineering framework with disassembly, assembly, decompilation, graphing, and scripting capabilities.
+- [MobSF](https://snapcraft.io/mobsf) (snap) - Android and IOS security assessment platform, both static and dynamic.
+- [radare2](https://snapcraft.io/radare2) (snap) - Reverse engineering toolkit with disassamblers, debuggers, and emulators.
+
+### Runtime isolation
+
+- [AppArmor](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=apparmor) (package) - Linux security module implementing a MAC policy to limit the capabilities of an application.
+- [Landlock](https://manpages.ubuntu.com/manpages/noble/en/man7/landlock.7.html) (OS feature) - Linux LSM implementing access control for unprivileged processes.
+- [Kernel Lockdown](https://manpages.ubuntu.com/manpages/noble/man7/kernel_lockdown.7.html) (OS feature) - Linux kernel feature to prevent unauthorized access or modification to the kernel image or sensitive data from the kernel memory.
+- [Snapcraft](https://snapcraft.io/snapcraft) (snap) - Toolkit for creating snaps, namely cross-distro packages that are self-contained using the AppArmor LSM.
+
+### Runtime process analysis
+
+- [nsntrace](https://snapcraft.io/nsntrace) (snap) - Network tracer for processes, with `.pcap` exports.
+- [Valgrind](https://snapcraft.io/valgrind) (snap) - Memory management and thread error detector.
 
 ### Security linting
 
@@ -64,6 +91,14 @@ gantt
 - [Semgrep](https://snapcraft.io/semgrep) (snap) - Static analysis engine for finding bugs and querying the code in 30+ programming languages.
 - [ShellCheck](https://snapcraft.io/shellcheck) (snap) - Static doe analyser for shell scripts.
 
+### Symbolic execution
+
+- [KLEE](https://snapcraft.io/klee) (snap) - Symbolic execution VM using LLVM.
+
+### Threat modelling
+
+- [OWASP Threat Dragon](https://snapcraft.io/threat-dragon) (snap) - Threat modelling platform.
+
 ### Vulnerability scanning for dependencies
 
 - [cargo-auditable](https://packages.ubuntu.com/search?suite=all&keywords=cargo-auditable&searchon=names) - Tool for embedding the dependency tree in Rust-based executables, which can be later scanned for vulnerabilities.
@@ -71,46 +106,11 @@ gantt
 - [OSV-Scanner](https://snapcraft.io/osv-scanner) (snap) - Vulnerability scanner for projects' lists of dependencies.
 - [Trivy](https://snapcraft.io/trivy) (snap) - Vulnerability scanner for SBOM.
 
-### Runtime isolation
-
-- [AppArmor](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=apparmor) (package) - Linux security module implementing a MAC policy to limit the capabilities of an application.
-- [Landlock](https://manpages.ubuntu.com/manpages/noble/en/man7/landlock.7.html) (OS feature) - Linux LSM implementing access control for unprivileged processes.
-- [Kernel Lockdown](https://manpages.ubuntu.com/manpages/noble/man7/kernel_lockdown.7.html) (OS feature) - Linux kernel feature to prevent unauthorized access or modification to the kernel image or sensitive data from the kernel memory.
-- [Snapcraft](https://snapcraft.io/snapcraft) (snap) - Toolkit for creating snaps, namely cross-distro packages that are self-contained using the AppArmor LSM.
-
-### License scanning
-
-- [Trivy](https://snapcraft.io/trivy) (snap) - License scanner and opinionated risk assessor.
-
-### Reverse engineering
-
-- [Capstone](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=capstone) (package) - Disassembly framework supporting 20+ architectures.
-- [Ghidra](https://snapcraft.io/ghidra) (snap) - Reverse engineering framework with disassembly, assembly, decompilation, graphing, and scripting capabilities.
-- [MobSF](https://snapcraft.io/mobsf) (snap) - Android and IOS security assessment platform, both static and dynamic.
-- [radare2](https://snapcraft.io/radare2) (snap) - Reverse engineering toolkit with disassamblers, debuggers, and emulators.
-
-### Fuzzing
-
-- [AFL++](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=aflplusplus) (package) - Coverage-based fuzzer with compile-time instrumentation and QEMU emulation.
-
-### Symbolic execution
-
-- [KLEE](https://snapcraft.io/klee) (snap) - Symbolic execution VM using LLVM.
-
-### Runtime process analysis
-
-- [nsntrace](https://snapcraft.io/nsntrace) (snap) - Network tracer for processes, with `.pcap` exports.
-- [Valgrind](https://snapcraft.io/valgrind) (snap) - Memory management and thread error detector.
-
 ### Web scanning
 
 - [OWASP Zed Attack Proxy](https://snapcraft.io/zaproxy) (snap) - Extensible web app scanner.
 - [sublist3r](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=sublist3r) (package) - Subdomain enumeration tool by using OSINT or bruteforce.
 - [wfuzz](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=wfuzz) (package) - Fuzzer for any field of an HTTP request.
-
-### Coordinated vulnerability disclosure
-
-- [cvelib](https://packages.ubuntu.com/search?suite=all&searchon=names&keywords=cvelib) (package) - CLI tool and Python library for communicating with the CVE Services API.
 
 ## Contributions
 
