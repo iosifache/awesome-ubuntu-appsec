@@ -12,6 +12,38 @@ We've curated this [open](#contributions) list of awesome tools that:
 - Assist anyone working with code to ensure or improve the security of a codebase; and
 - Can be easily installed on Ubuntu, either from the Ubuntu Archive or the Snap Store.
 
+## Categories
+
+The tools were meticulously grouped into categories. To make things more visual, the following diagram outlines each category and how it could potentially fit into your software development lifecycle.
+
+```mermaid
+%%{init: {'theme':'neutral'}}%%
+
+gantt
+    axisFormat  
+
+    section Stages in the Software Development Lifecycle
+        Planning                : 2050-01-01, 1d
+        Analysis                : 1d
+        Design                  : 1d
+        Implementation          : 1d
+        Testing and integration : 1d
+        Maintainance            : 1d
+
+    section Categories from this list
+        Threat modelling                            : 2050-01-01, 6d
+        License scanning                            : 2050-01-03, 2d
+        Fuzzing                                     : 2050-01-04, 2d
+        Symbolic execution                          : 2050-01-04, 2d
+        Security linting                            : 2050-01-04, 3d
+        Vulnerability scanning for dependencies     : 2050-01-04, 3d
+        Runtime isolation                           : 2050-01-04, 3d
+        Runtime process analysis                    : 2050-01-04, 3d
+        Web scanning                                : 2050-01-04, 3d
+        Reverse engineering                         : 2050-01-05, 1d
+        Vulnerability disclosure                    : 2050-01-06, 1d
+```
+
 ## Tools
 
 ### Threat modelling
