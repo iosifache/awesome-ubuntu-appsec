@@ -22,6 +22,7 @@ We've curated this [open](#contributions) list of awesome tools that:
 
 - [Bandit](https://snapcraft.io/bandit) (snap) - Python static code analyser.
 - [Brakeman](https://snapcraft.io/brakeman) (snap) - Static vulnerability scanner for Ruby on Rails.
+- [Clippy](https://packages.ubuntu.com/search?suite=all&searchon=names&keywords=rust-clippy) (package) - Rust linter with safety checks
 - [cppcheck](https://snapcraft.io/cppcheck) (snap) - C/C++ static code analyser.
 - [frawfinder](https://snapcraft.io/flawfinder) (snap) - C/C++ static code analyser.
 - [gosec](https://snapcraft.io/gosec) (snap) - Go static code analyser.
@@ -33,6 +34,7 @@ We've curated this [open](#contributions) list of awesome tools that:
 
 ### Vulnerability scanning for dependencies
 
+- [cargo-auditable](https://packages.ubuntu.com/search?suite=all&keywords=cargo-auditable&searchon=names) - Tool for embedding the dependency tree in Rust-based executables, which can be later scanned for vulnerabilities.
 - [depsdev](https://snapcraft.io/depsdev) (snap) - deps.dev client for fetching details such as dependencies, licenses, advisories, and critical health.
 - [OSV-Scanner](https://snapcraft.io/osv-scanner) (snap) - Vulnerability scanner for projects' lists of dependencies.
 - [Trivy](https://snapcraft.io/trivy) (snap) - Vulnerability scanner for SBOM.
@@ -40,8 +42,8 @@ We've curated this [open](#contributions) list of awesome tools that:
 ### Runtime isolation
 
 - [AppArmor](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=apparmor) (package) - Linux security module implementing a MAC policy to limit the capabilities of an application.
-- [Landlock](https://manpages.ubuntu.com/manpages/noble/en/man7/landlock.7.html) (OS feature) - Linux LSM implementing access control for unprivileged processes
-- [Kernel Lockdown](https://manpages.ubuntu.com/manpages/noble/man7/kernel_lockdown.7.html) (OS feature) - Linux kernel feature to prevent unauthorized access or modification to the kernel image or sensitive data from the kernel memory
+- [Landlock](https://manpages.ubuntu.com/manpages/noble/en/man7/landlock.7.html) (OS feature) - Linux LSM implementing access control for unprivileged processes.
+- [Kernel Lockdown](https://manpages.ubuntu.com/manpages/noble/man7/kernel_lockdown.7.html) (OS feature) - Linux kernel feature to prevent unauthorized access or modification to the kernel image or sensitive data from the kernel memory.
 - [Snapcraft](https://snapcraft.io/snapcraft) (snap) - Toolkit for creating snaps, namely cross-distro packages that are self-contained using the AppArmor LSM.
 
 ### License scanning
@@ -73,6 +75,10 @@ We've curated this [open](#contributions) list of awesome tools that:
 - [OWASP Zed Attack Proxy](https://snapcraft.io/zaproxy) (snap) - Extensible web app scanner.
 - [sublist3r](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=sublist3r) (package) - Subdomain enumeration tool by using OSINT or bruteforce.
 - [wfuzz](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=wfuzz) (package) - Fuzzer for any field of an HTTP request.
+
+### Coordinated vulnerability disclosure
+
+- [cvelib](https://packages.ubuntu.com/search?suite=all&searchon=names&keywords=cvelib) (package) - CLI tool and Python library for communicating with the CVE Services API.
 
 ## Contributions
 
