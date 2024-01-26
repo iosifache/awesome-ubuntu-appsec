@@ -12,8 +12,8 @@ Each entry of the list should follow the format below:
 
 The variables in the format and their corresponding meaning are:
 
-- `<artifact_type>`: Artefact type, either "*package*" or "*snap*";
+- `<artifact_type>`: Artefact type, either "*OS feature*", "*package*" or "*snap*";
 - `<description>`: Concise description of the tool;
 - `<name>`: The name of the tool; and
-- `<packages_snap_link>`: Link to `packages.ubuntu.com` (starting with `https://packages.ubuntu.com/search?searchon=sourcenames&keywords=`) or listing from Snap Store (starting with `https://snapcraft.io`), depending on the artefact type.
+- `<packages_snap_link>`: Link to the web manual (starting with `manpages.ubuntu.com/manpages`), `packages.ubuntu.com` (starting with `https://packages.ubuntu.com/search?searchon=sourcenames&keywords=`) or listing from Snap Store (starting with `https://snapcraft.io`), depending on the artefact type.
 
