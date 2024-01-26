@@ -37,9 +37,11 @@ We've curated this [open](#contributions) list of awesome tools that:
 - [OSV-Scanner](https://snapcraft.io/osv-scanner) (snap) - Vulnerability scanner for projects' lists of dependencies.
 - [Trivy](https://snapcraft.io/trivy) (snap) - Vulnerability scanner for SBOM.
 
-### Confinement
+### Runtime isolation
 
 - [AppArmor](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=apparmor) (package) - Linux security module implementing a MAC policy to limit the capabilities of an application.
+- [Landlock](https://manpages.ubuntu.com/manpages/noble/en/man7/landlock.7.html) (OS feature) - Linux LSM implementing access control for unprivileged processes
+- [Kernel Lockdown](https://manpages.ubuntu.com/manpages/noble/man7/kernel_lockdown.7.html) (OS feature) - Linux kernel feature to prevent unauthorized access or modification to the kernel image or sensitive data from the kernel memory
 - [Snapcraft](https://snapcraft.io/snapcraft) (snap) - Toolkit for creating snaps, namely cross-distro packages that are self-contained using the AppArmor LSM.
 
 ### License scanning
