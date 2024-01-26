@@ -101,7 +101,7 @@ gantt
 
 ### Vulnerability scanning for dependencies
 
-- [cargo-auditable](https://packages.ubuntu.com/search?suite=all&keywords=cargo-auditable&searchon=names) - Tool for embedding the dependency tree in Rust-based executables, which can be later scanned for vulnerabilities.
+- [cargo-auditable](https://packages.ubuntu.com/search?suite=all&keywords=cargo-auditable&searchon=names) (package) - Tool for embedding the dependency tree in Rust-based executables, which can be later scanned for vulnerabilities.
 - [depsdev](https://snapcraft.io/depsdev) (snap) - deps.dev client for fetching details such as dependencies, licenses, advisories, and critical health.
 - [OSV-Scanner](https://snapcraft.io/osv-scanner) (snap) - Vulnerability scanner for projects' lists of dependencies.
 - [Trivy](https://snapcraft.io/trivy) (snap) - Vulnerability scanner for SBOM.
