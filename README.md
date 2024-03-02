@@ -108,7 +108,7 @@ gantt
 
 ### Web scanning
 
-- [OWASP Zed Attack Proxy](https://snapcraft.io/zaproxy) (snap) - Extensible web app scanner.
+- [Zed Attack Proxy](https://snapcraft.io/zaproxy) (snap) - Extensible web app scanner.
 - [sublist3r](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=sublist3r) (package) - Subdomain enumeration tool by using OSINT or bruteforce.
 - [wfuzz](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=wfuzz) (package) - Fuzzer for any field of an HTTP request.
 
