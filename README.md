@@ -40,6 +40,7 @@ gantt
         Runtime isolation                           : 2050-01-04, 3d
         Runtime process analysis                    : 2050-01-04, 3d
         Web scanning                                : 2050-01-04, 3d
+        Web firewalling                             : 2050-01-04, 3d
         Reverse engineering                         : 2050-01-05, 1d
         Vulnerability disclosure                    : 2050-01-06, 1d
 ```
@@ -105,6 +106,12 @@ gantt
 - [depsdev](https://snapcraft.io/depsdev) (snap) - deps.dev client for fetching details such as dependencies, licenses, advisories, and critical health.
 - [OSV-Scanner](https://snapcraft.io/osv-scanner) (snap) - Vulnerability scanner for projects' lists of dependencies.
 - [Trivy](https://snapcraft.io/trivy) (snap) - Vulnerability scanner for SBOM.
+
+### Web firewalling
+
+- [Apache ModSecurity](https://packages.ubuntu.com/search?searchon=names&keywords=libapache2-mod-security2) (package) - Apache module for ModSecurity
+- [libmodsecurity](https://packages.ubuntu.com/search?searchon=names&keywords=libmodsecurity3) (package) - ModSecurity library, used for the integration with Nginx
+- [modsecurity-crs](https://packages.ubuntu.com/search?searchon=names&keywords=modsecurity-crs) (package) - OWASP ModSecurity Core Rule Set
 
 ### Web scanning
 
